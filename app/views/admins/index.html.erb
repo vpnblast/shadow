@@ -1,0 +1,28 @@
+<h1>Admin Page - Add | Remove | Edit</h1>
+It's <%= Time.now %>
+<p><h5>Attention : Never Remove user Admin !!!!!</h5></p>
+<% if notice %>
+    <p id="notice"><%= notice %></p>
+<% end %>
+
+<table>
+  <tr>
+    <th>Admin Usernames:</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @admins.each do |admin| %>
+      <tr>
+        <td><%= admin.username %></td>
+        <td><%= link_to 'Show', admin %></td>
+        <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
+        <td><%= link_to 'Remove', admin, confirm: 'Are you sure?', method: :delete %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br/>
+<%= link_to 'New Admin', new_admin_path %> |
+<%= link_to 'Return Home', :controller => :home, :action => :index %>

@@ -1,0 +1,1100 @@
+[2014-01-08 00:32:13] INFO  WEBrick 1.3.1
+[2014-01-08 00:32:13] INFO  ruby 2.0.0 (2013-06-27) [i686-linux]
+[2014-01-08 00:32:13] INFO  WEBrick::HTTPServer#start: pid=8554 port=3000
+=> Booting WEBrick
+=> Rails 4.0.2 application starting in development on http://0.0.0.0:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+
+
+Started GET "/cfg/generate" for 198.20.116.80 at 2014-01-08 00:32:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CfgController#generate as HTML
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+Checking file: /root/shadowsocks-nodejs/config.json
+Backing up the initial file to /root/shadowsocks-nodejs/2014-01-08_config.json
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered cfg/generate.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 195ms (Views: 79.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:16 -0500
+
+
+Started GET "/users" for 198.20.116.80 at 2014-01-08 00:32:17 -0500
+Processing by UsersController#index as HTML
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 61ms (Views: 58.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:18 -0500
+
+
+Started GET "/home/index" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+Processing by HomeController#index as HTML
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:22 -0500
+
+
+Started GET "/logout" for 198.20.116.80 at 2014-01-08 00:32:24 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://sh.vpngroups.us:3000/login
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 63ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:26 -0500
+
+
+Started POST "/login" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VkRZvVXMggyOZAdUYPm+GL9vGMuLHQGto4luawTp+tk=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."username" = 'admin' LIMIT 1[0m
+Redirected to http://sh.vpngroups.us:3000/home/index
+Completed 302 Found in 107ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/home/index" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+Processing by HomeController#index as HTML
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:32 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:33 -0500
+
+
+Started GET "/admins" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+Processing by AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_admins_index_html_erb___576441220_70931600 at /root/shadow/app/views/admins/index.html.erb:21)
+  Rendered admins/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:36 -0500
+
+
+Started GET "/home/index" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+Processing by HomeController#index as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:39 -0500
+
+
+Started GET "/users" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+Processing by UsersController#index as HTML
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:41 -0500
+
+
+Started GET "/cfg/index" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+Processing by CfgController#index as HTML
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  Rendered cfg/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:47 -0500
+
+
+Started GET "/cfg/generate" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+Processing by CfgController#generate as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+Checking file: /root/shadowsocks-nodejs/config.json
+Backing up the initial file to /root/shadowsocks-nodejs/2014-01-08_config.json
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered cfg/generate.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 6.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:48 -0500
+
+
+Started GET "/users" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+Processing by UsersController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (58.8ms)
+Completed 200 OK in 65ms (Views: 62.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:50 -0500
+
+
+Started GET "/home/index" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+Processing by HomeController#index as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:54 -0500
+
+
+Started GET "/logout" for 198.20.116.80 at 2014-01-08 00:32:55 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://sh.vpngroups.us:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/home.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/users.css?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/home.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 198.20.116.80 at 2014-01-08 00:32:56 -0500
+
+
+Started GET "/" for 151.65.254.209 at 2014-01-08 00:43:40 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 165ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/home.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/users.css?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/home.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/users.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 151.65.254.209 at 2014-01-08 00:43:41 -0500
+
+
+Started POST "/login" for 151.65.254.209 at 2014-01-08 00:43:48 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A6BKR9JL9X7dF4OfuWl+Rnvtcm0dz9x+24+8z/cJVWk=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mAdmin Load (0.5ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."username" = 'admin' LIMIT 1
+Redirected to http://sh.vpngroups.us:3000/home/index
+Completed 302 Found in 109ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/home/index" for 151.65.254.209 at 2014-01-08 00:43:48 -0500
+Processing by HomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 151.65.254.209 at 2014-01-08 00:43:50 -0500
+Processing by UsersController#index as HTML
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 66ms (Views: 63.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/cfg/index" for 151.65.254.209 at 2014-01-08 00:57:11 -0500
+Processing by CfgController#index as HTML
+  [1m[35mAdmin Load (0.4ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  Rendered cfg/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cfg/generate" for 151.65.254.209 at 2014-01-08 00:57:13 -0500
+Processing by CfgController#generate as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+Checking file: /root/shadowsocks-nodejs/config.json
+Backing up the initial file to /root/shadowsocks-nodejs/2014-01-08_config.json
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+  Rendered cfg/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 54ms (Views: 6.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 151.65.254.209 at 2014-01-08 00:57:14 -0500
+Processing by UsersController#index as HTML
+  [1m[36mAdmin Load (0.5ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (54.3ms)
+Completed 200 OK in 65ms (Views: 59.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users/186/edit" for 151.65.254.209 at 2014-01-08 01:15:02 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"186"}
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "186"]]
+  Rendered users/_form.html.erb (11.7ms)
+  Rendered users/edit.html.erb within layouts/application (166.6ms)
+Completed 200 OK in 175ms (Views: 171.5ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/users/186" for 151.65.254.209 at 2014-01-08 01:15:21 -0500
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A6BKR9JL9X7dF4OfuWl+Rnvtcm0dz9x+24+8z/cJVWk=", "user"=>{"username"=>"2099", "password"=>"[FILTERED]", "date_begin"=>"2013-01-01", "date_end"=>"2014-03-06", "email"=>"ok"}, "commit"=>"Update User", "id"=>"186"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "186"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  UPDATE "users" SET "date_end" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 186  [["date_end", "2014-03-06"], ["email", "ok"], ["updated_at", Wed, 08 Jan 2014 06:15:21 UTC +00:00]]
+  [1m[36m (4.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://sh.vpngroups.us:3000/users/186
+Completed 302 Found in 16ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/users/186" for 151.65.254.209 at 2014-01-08 01:15:21 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"186"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "186"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:21 -0500
+
+
+Started GET "/users" for 151.65.254.209 at 2014-01-08 01:15:23 -0500
+Processing by UsersController#index as HTML
+  [1m[35mAdmin Load (0.4ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (61.5ms)
+Completed 200 OK in 70ms (Views: 66.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/185/edit" for 151.65.254.209 at 2014-01-08 01:15:34 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"185"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "185"]]
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered users/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/185" for 151.65.254.209 at 2014-01-08 01:15:44 -0500
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A6BKR9JL9X7dF4OfuWl+Rnvtcm0dz9x+24+8z/cJVWk=", "user"=>{"username"=>"2098", "password"=>"[FILTERED]", "date_begin"=>"2013-01-01", "date_end"=>"2014-03-06", "email"=>"ok"}, "commit"=>"Update User", "id"=>"185"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "185"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "date_end" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 185[0m  [["date_end", "2014-03-06"], ["email", "ok"], ["updated_at", Wed, 08 Jan 2014 06:15:44 UTC +00:00]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Redirected to http://sh.vpngroups.us:3000/users/185
+Completed 302 Found in 7ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/users/185" for 151.65.254.209 at 2014-01-08 01:15:45 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"185"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "185"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 151.65.254.209 at 2014-01-08 01:15:45 -0500
+
+
+Started GET "/users" for 151.65.254.209 at 2014-01-08 01:15:46 -0500
+Processing by UsersController#index as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (82.5ms)
+Completed 200 OK in 91ms (Views: 87.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/187/edit" for 151.65.254.209 at 2014-01-08 01:16:15 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"187"}
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "187"]]
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered users/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/users/187" for 151.65.254.209 at 2014-01-08 01:16:23 -0500
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A6BKR9JL9X7dF4OfuWl+Rnvtcm0dz9x+24+8z/cJVWk=", "user"=>{"username"=>"2100", "password"=>"[FILTERED]", "date_begin"=>"2013-01-01", "date_end"=>"2014-03-07", "email"=>"ok"}, "commit"=>"Update User", "id"=>"187"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "187"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "date_end" = ?, "email" = ?, "updated_at" = ? WHERE "users"."id" = 187  [["date_end", "2014-03-07"], ["email", "ok"], ["updated_at", Wed, 08 Jan 2014 06:16:23 UTC +00:00]]
+  [1m[36m (3.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://sh.vpngroups.us:3000/users/187
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/users/187" for 151.65.254.209 at 2014-01-08 01:16:23 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"187"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "187"]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 151.65.254.209 at 2014-01-08 01:16:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 151.65.254.209 at 2014-01-08 01:16:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 151.65.254.209 at 2014-01-08 01:16:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 151.65.254.209 at 2014-01-08 01:16:24 -0500
+
+
+Started GET "/users" for 151.65.254.209 at 2014-01-08 01:16:25 -0500
+Processing by UsersController#index as HTML
+  [1m[35mAdmin Load (0.4ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (55.6ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 151.65.254.209 at 2014-01-09 23:48:11 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (223.1ms)
+Completed 200 OK in 275ms (Views: 252.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/admins.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/cfg.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/home.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/users.css?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/admins.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/cfg.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/home.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/users.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 151.65.254.209 at 2014-01-09 23:48:14 -0500
+
+
+Started POST "/login" for 151.65.254.209 at 2014-01-09 23:48:28 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d3BbTO+oocl0Eri6mVIR9tY/1HLnKv/p7WgWbaeEbw8=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."username" = 'admin' LIMIT 1
+Redirected to http://shadow.vpngroups.us:3000/home/index
+Completed 302 Found in 154ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/home/index" for 151.65.254.209 at 2014-01-09 23:48:28 -0500
+Processing by HomeController#index as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 151.65.254.209 at 2014-01-09 23:48:30 -0500
+Processing by UsersController#index as HTML
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  [1m[36mUser Load (13.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (534.8ms)
+Completed 200 OK in 594ms (Views: 557.9ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/cfg/index" for 151.65.254.209 at 2014-01-09 23:48:35 -0500
+Processing by CfgController#index as HTML
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1
+  Rendered cfg/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cfg/generate" for 151.65.254.209 at 2014-01-09 23:48:36 -0500
+Processing by CfgController#generate as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 4 LIMIT 1[0m
+Checking file: /root/shadowsocks-nodejs/config.json
+Backing up the initial file to /root/shadowsocks-nodejs/2014-01-09_config.json
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users"

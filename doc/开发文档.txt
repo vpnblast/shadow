@@ -1,0 +1,28 @@
+ChangeLog.txt
+
+2013-12-12
+加入Cron操作，每天更新一次用户名和密码。
+
+2013-12-13
+(1) 设定全局配置变量，区分当前运行操作系统是Windows还是Linux。
+在environment.rb中加入常量:
+OS = "W" (Windows) or "L" (Linux)
+
+2013-12-15
+(1) 加入管理员admin登录功能。
+(2) 加入全局过滤器检测管理员是否登录。
+
+2014-01-07
+(1) 解决bug: 
+date_end = Date.parse(user.date_end)出错
+原因是有个不存在的日期：2014-02-29
+
+
+FAQ:
+(1) 启动web服务器
+进入/root/shadow，输入命令 rails server
+
+(2) 访问web服务器
+http://ip地址:3000
+
+

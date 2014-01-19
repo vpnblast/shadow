@@ -1,0 +1,85 @@
+<h1>Add | Remove | Edit users</h1>
+
+<h2>Expired User</h2>
+<table>
+  <thead>
+  <tr>
+    <th>Port-Numbers</th>
+    <th>Passwords</th>
+    <th>Start-Date</th>
+    <th>Expire-Date</th>
+    <th>Status</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% date_now = Date.today() %>
+  <% @users.each do |user| %>
+      <% date_end = Date.parse(user.date_end)
+         comp = date_now <=> date_end
+
+         if comp == 1 %>
+          <tr>
+            <td><%= user.username %></td>
+            <td><%= user.password %></td>
+            <td><%= user.date_begin %></td>
+            <td><%= user.date_end %></td>
+            <td><%= user.email %></td>
+            <td><%= link_to 'Show', user %></td>
+            <td><%= link_to 'Edit', edit_user_path(user) %></td>
+            <td><%= link_to 'Remove', user, method: :delete, data: {confirm: 'Are you sure?' } %></td>
+          </tr>
+
+      <% end %>
+  <% end %>
+  </tbody>
+</table>
+
+<h2>Good User</h2>
+
+<table>
+  <thead>
+  <tr>
+    <th>Port-Numbers</th>
+    <th>Passwords</th>
+    <th>Start-Date</th>
+    <th>Expire-Date</th>
+    <th>Status</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% date_now = Date.today() %>
+  <% @users.each do |user| %>
+      <% date_end = Date.parse(user.date_end)
+         comp = date_now <=> date_end
+
+         if comp == -1 || comp == 0 %>
+          <tr>
+            <td><%= user.username %></td>
+            <td><%= user.password %></td>
+            <td><%= user.date_begin %></td>
+            <td><%= user.date_end %></td>
+            <td><%= user.email %></td>
+            <td><%= link_to 'Show', user %></td>
+            <td><%= link_to 'Edit', edit_user_path(user) %></td>
+            <td><%= link_to 'Remove', user, method: :delete, data: {confirm: 'Are you sure?' } %></td>
+          </tr>
+
+      <% end %>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Add New User', new_user_path %> |
+<%= link_to "Submit Changes", :controller => :cfg, :action => :index %> |
+<%= link_to 'Return Home', :controller => :home, :action => :index %> 
+
